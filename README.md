@@ -40,4 +40,25 @@ The library is bundled with **Rollup**, tested using **React Testing Library** a
 ---
 
 ## 📁 Project Structure
+├── src/
+│ ├── components/
+│ │ ├── Button/
+│ │ │ ├── Button.tsx
+│ │ │ ├── Button.test.tsx
+│ │ │ └── Button.stories.tsx
+│ │ ├── Input/
+│ │ ├── Card/
+│ │ ├── Accordion/
+│ │ ├── DatePicker/
+│ │ └── index.ts
+│ ├── hooks/
+│ └── utils/
+├── dist/
+├── .storybook/
+├── tests/
+├── rollup.config.mjs
+├── tailwind.config.js
+├── tsconfig.json
+├── package.json
+└── README
 
